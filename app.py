@@ -5,6 +5,7 @@ from langchain.agents import create_agent
 from dotenv import load_dotenv
 load_dotenv()
 
+st.secrets['GROQ_API_KEY']
 #llm
 llm = ChatGroq(model='openai/gpt-oss-120b')
 
